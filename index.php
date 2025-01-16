@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     
     <!-- PWA meta -->
-    <meta name="theme-color" content="#6200EE">
+    <meta name="theme-color" content="#8532a8">
 
     <!-- Bootstrap 5.3.1 CSS & JS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +27,54 @@
 </head>
 
 <body>
+
+<style>
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-custom {
+    background-color: #8532a8;
+}
+
+.container {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #8532a8;
+}
+
+.alert-warning {
+    background-color: rgba(255, 193, 7, 0.15);
+    border-color: rgba(255, 193, 7, 0.3);
+}
+
+input[type="text"].form-control {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-check-label {
+    color: #fff;
+}
+
+input[type="text"]:disabled {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .col-md-3, .col-md-2 {
+        width: 100%;
+    }
+}
+</style>
+
+
 
 <div class="container">
     <?php include './include/navbar.php';?>
