@@ -44,7 +44,7 @@ body {
 }
 
 h2 {
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     color: #8532a8;
 }
 
