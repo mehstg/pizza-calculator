@@ -1,5 +1,5 @@
 
-<nav class="navbar-custom navbar-expand-lg bg-primary" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg bg-custom">
     <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <!--<img src="logo.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">-->

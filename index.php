@@ -35,7 +35,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar-custom {
+.bg-custom {
     background-color: #8532a8;
 }
 
