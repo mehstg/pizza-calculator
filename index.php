@@ -28,50 +28,6 @@
 
 <body>
 
-<style>
-body {
-    background-color: #121212;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    padding: 2rem;
-}
-
-h2 {
-    margin-bottom: 1.5rem;
-    color: #6200EE;
-}
-
-.alert-warning {
-    background-color: rgba(255, 193, 7, 0.15);
-    border-color: rgba(255, 193, 7, 0.3);
-}
-
-input[type="text"].form-control {
-    background-color: #1e1e1e;
-    border: 1px solid #444;
-    color: #fff;
-}
-
-.form-check-label {
-    color: #fff;
-}
-
-input[type="text"]:disabled {
-    background-color: #333;
-}
-
-@media (max-width: 768px) {
-    .col-md-3, .col-md-2 {
-        width: 100%;
-    }
-}
-</style>
-
-
-
 <div class="container">
     <?php include './include/navbar.php';?>
 
